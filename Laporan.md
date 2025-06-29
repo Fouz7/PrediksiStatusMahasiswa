@@ -24,7 +24,17 @@ conda activate Education
 pip install -r requirements.txt
 ```
 
+## Menjalankan Sistem Machine Learning
+Sistem prediktif ini memungkinkan pengguna memasukkan data mahasiswa dan mendapatkan prediksi status akhir secara langsung.
 
+Cara menjalankan secara lokal:
+
+```
+streamlit run app.py
+```
+
+Atau akses prototipe online:
+Streamlit App Link: [Prototipe Streamlit](https://fouz7-prediksistatusmahasiswa-app-wel5ca.streamlit.app/)
 
 
 ## Business Dashboard
@@ -38,7 +48,7 @@ password: root123
 <img src="fauzan_JXmL_dashboard2.png">
 
 ## Conclusion
-Model machine learning yang dibangun menggunakan Random Forest Classifier berhasil mencapai akurasi ~77%, dengan f1-score terbaik untuk kelas Graduate dan Dropout. Prototipe sistem ini dapat digunakan untuk:
+Model machine learning yang dibangun menggunakan Random Forest Classifier berhasil mencapai akurasi ~76%, dengan f1-score terbaik untuk kelas Graduate dan Dropout. Prototipe sistem ini dapat digunakan untuk:
 - Mengidentifikasi mahasiswa berisiko tinggi sejak awal
 - Membantu tim akademik melakukan intervensi tepat waktu
 - Memberikan dasar pengambilan keputusan berbasis data

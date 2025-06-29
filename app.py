@@ -66,7 +66,7 @@ if submit:
 
     full_data = {col: 0 for col in feature_names}
     full_data.update(user_values)
-    input_df = pd.DataFrame([full_data])[feature_names]  # pastikan urutan benar
+    input_df = pd.DataFrame([full_data])[feature_names]
 
     prediction = model.predict(input_df)[0]
     label = label_encoder.inverse_transform([prediction])[0]
